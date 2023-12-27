@@ -1,0 +1,38 @@
+{
+  "name": "movie-muse-api",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Mitul Gedeeya",
+    "email": "imitul.karishyen@gmail.com"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.0",
+    "email-validator": "^2.0.4",
+    "express": "~4.16.1",
+    "firebase-admin": "^11.9.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.3.5",
+    "nodemailer": "^6.9.3",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.0",
+    "slugify": "^1.6.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
